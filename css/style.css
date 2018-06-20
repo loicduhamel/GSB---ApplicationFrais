@@ -1,0 +1,247 @@
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: 0;
+}
+
+.navbar-toggler span {
+    display: block;
+    background-color: #444;
+    height: 3px;
+    width: 25px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    opacity: 1;
+}
+
+.navbar-toggler span:nth-child(1),
+.navbar-toggler span:nth-child(3) {
+    -webkit-transition: transform .35s ease-in-out;
+    -moz-transition: transform .35s ease-in-out;
+    -o-transition: transform .35s ease-in-out;
+    transition: transform .35s ease-in-out;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+    margin-top: 0px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+    opacity: 0.9;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+    height: 12px;
+    visibility: hidden;
+    background-color: transparent;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+    margin-top: -22px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    opacity: 0.9;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    background: url(../img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar.navbar-toggleable-md.navbar-light.bg-faded {
+    background: rgba(255, 255, 255, 0.80);
+}
+
+.white-zone {
+    border-radius: 15px;
+    margin-top: 5%!important;
+    margin: auto;
+    background-color: white;
+    opacity: 0.9;
+}
+
+th {
+    text-align: center; 
+}
+
+td {
+    text-align: center; 
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.table-responsive {
+    width: 90%;
+    margin: auto;
+}
+
+.logo-nav {
+    width: 80px;
+}
+
+#demo {
+    max-width: 1000px !important;
+    margin: auto; 
+    margin-top: 6%; 
+    margin-bottom: 6%;
+}
+
+.app-frais {
+    position: absolute; 
+    top: 25px; 
+    left: 110px; 
+    font-weight: bold; 
+    color: #123e6a;
+}
+
+.dropdown-menu {
+    width: 5%;
+}
+
+#carousel {
+    max-width: 1000px; 
+    margin: auto; 
+    margin-top: 6%; 
+    margin-bottom: 6%;
+}
+
+.white-zone2 {
+    border-radius: 15px;
+    margin-top: 5%!important;
+    margin: auto;
+    background-color: white;
+    opacity: 0.9;
+    width: 80%; 
+    margin-bottom: 20px;
+}
+
+.info {
+    margin-left: 20px;
+}
+
+.info2 {
+    display: inline-block;
+}
+
+.title-page {
+    display: inline-block; 
+    margin-left: 20px; 
+    margin-top: 10px; 
+    color: #123e6a;
+}
+
+.title-page2 {
+    display: inline-block; 
+    margin-left: 20px; 
+    margin-top: 10px;
+}
+
+.title-page3 {
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 20px; 
+    margin-top: 10px; 
+    color: #123e6a;
+}
+
+.input-group {
+    margin-left: 10%; 
+    margin-top: 5%; 
+    margin-bottom: 20px;
+}
+
+.input-group-btn {
+    margin-top: 3%;  
+    margin-right: 20%;
+}
+
+.link-modal {
+    margin-left: 20px; 
+    display: inline-block;
+}
+
+.icon1 {
+    font-size: 25px;
+}
+
+.icon2 {
+    margin-left: 10px; 
+    font-size: 25px;
+}
+
+#date {
+    max-width: 170px; 
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+#modal-title {
+    margin-left: 25%;
+}
+
+.modal-footer {
+    margin: auto;
+}
+
+.login-form {
+    position: relative;
+    top: 150px;
+    margin: auto;
+    max-width: 400px;
+    height: 390px;
+    background: rgba(255, 255, 255, 0.80);
+    border-radius: 20px;
+    text-align: center;
+}
+
+#form-connect {
+    width: 350px;
+}
+
+.title {
+    font-size: 30px;
+    color: #123e6a;
+    margin: auto; 
+    margin-top: 2%;
+}
+
+.logo {
+    width: 40%; 
+    margin: auto; 
+    margin-top: 20px;
+}
+
+.form-control {
+    margin: auto; 
+    margin-top: 3%;
+}
+
+.form-check {
+    float: left; 
+    margin-left: 6%;
+}
+
+.select-frais {
+    margin-top: 13.969px;
+}
+
+.mdp-missing {
+    float: left; 
+    margin-left: 25px; 
+    margin-top: 3px;
+}
